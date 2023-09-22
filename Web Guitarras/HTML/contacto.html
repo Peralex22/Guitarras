@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+	<head>
+		<meta charset="utf-8">
+		<title>contacto</title>
+		<meta name="description" content="contacto">
+		<meta name="keywords" content="contacto">
+	</head>
+	<body>
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="quienes_somos.html">Quienes somos</a></li>
+			<li><a href="productos.html">Productos</a>
+				<ul>
+					<li><a href="guitarras.html">Guitarras</a></li>
+					<li><a href="bajos.html">Bajos</a></li>
+				</ul>
+			</li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+		<h1>Contacto</h1>
+		<p>En construcción</p>
+		
+		<form action="procesar-formulario.php" method="get">
+			<fieldset>
+				<legend>Datos Personales:</legend>
+				<label for="nombre-usuario">Usuario:</label>
+				<input type="text" name="usuario" id="nombre-usuario">
+				<br><br>
+				<label for="contraseña">Contraseña:</label>
+				<input type="text" name="contrseña" id="contraseña">
+				<br><br>
+				<label for="DNI">DNI:</label>
+				<input type="text" name="DNI" id="DNI">
+				<br><br>
+				<label for="Fecha-nacimiento">Fecha Nacimiento:</label>
+				<input type="date" name="Fecha-nacimiento" id="Fecha-nacimiento">
+				<br><br>
+			</fieldset>
+			<fieldset>
+				<legend>Datos Laborables:</legend>
+				<label for="años-trabajados">Años Trabajados:</label>
+				<input type="number" name="Años-Trabajados" id="años-trabajados">
+				<br><br>
+				<label for="sector">Sector:</label>
+				<br>
+				<select name="sector" id="sector">
+					<option value="INF">Informática</option>
+					<option value="ELEC">Electrónica</option>
+				</select>
+				<br><br>
+				<label for="comentarios">Comentarios:</label>
+				<br>
+				<textarea name="comentarios" id="comentarios" rows="4" cols="40">Escribe un comentario</textarea>
+				<br><br>
+			</fieldset>
+			<button type="submit">Enviar Formulario</button>
+		</form>
+	</body>
+</html>	

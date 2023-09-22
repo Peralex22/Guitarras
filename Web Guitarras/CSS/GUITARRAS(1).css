@@ -1,0 +1,30 @@
+#titulo{
+	margin:10px;
+	font-family:Arial;
+}
+#texto1{
+	margin:20px;
+	border:1px solid;
+	height:180px;
+	width:700px;
+	background-color:#B6D7A8;
+	font-family:Arial;
+	padding:25px;
+}
+.color{
+	background-color:white;
+	margin:0px;
+}
+.flotar{
+	float:left;
+	margin:20px;
+}
+#texto2{
+	margin:35px;
+	font-family:Arial;
+	height:180px;
+	width:700px;
+}
+#enlace1{
+	margin:35px;
+}
